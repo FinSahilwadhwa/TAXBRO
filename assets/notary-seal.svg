@@ -1,0 +1,20 @@
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="54" x2="565" y2="418" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111720"/>
+      <stop offset="1" stop-color="#0A0F15"/>
+    </linearGradient>
+    <linearGradient id="seal" x1="214" y1="126" x2="431" y2="354" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12F2A6"/>
+      <stop offset="1" stop-color="#23B5FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" rx="32" fill="url(#bg)"/>
+  <circle cx="320" cy="240" r="132" fill="#0C131B" stroke="#253445" stroke-width="2"/>
+  <circle cx="320" cy="240" r="108" fill="none" stroke="url(#seal)" stroke-width="7"/>
+  <circle cx="320" cy="240" r="82" fill="#101A24" stroke="#12F2A6" stroke-opacity="0.34" stroke-width="2"/>
+  <path d="M320 182L336 214H371L342 235L353 270L320 249L287 270L298 235L269 214H304L320 182Z" fill="#12F2A6"/>
+  <path d="M318 107L332 89L346 107L369 101L373 124L395 131L385 152L401 168L385 184L395 205L373 212L369 235L346 229L332 247L318 229L295 235L291 212L269 205L279 184L263 168L279 152L269 131L291 124L295 101L318 107Z" stroke="#12F2A6" stroke-opacity="0.3" stroke-width="10"/>
+  <rect x="224" y="336" width="192" height="24" rx="12" fill="#EAF2FF"/>
+  <rect x="248" y="373" width="144" height="10" rx="5" fill="#7F91A7"/>
+</svg>
