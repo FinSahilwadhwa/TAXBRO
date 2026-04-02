@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://finsahilwadhwa.github.io/TAXBRO/sitemap.xml
