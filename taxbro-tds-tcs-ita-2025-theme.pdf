@@ -1,0 +1,770 @@
+%PDF-1.4
+1 0 obj
+<< /Length 3695 >>
+stream
+0.02 0.03 0.04 rg 0 0 960 540 re f
+0.05 0.09 0.13 rg 0 0 960 540 re f
+0.07 0.95 0.65 rg 0 516 960 24 re f
+0.08 0.12 0.18 rg 720 318 320 260 re f
+0.06 0.89 1.00 rg 0 0 180 180 re f
+BT /F2 16 Tf 0.933 0.957 1.000 rg 1 0 0 1 42 490 Tm (TaxBro) Tj ET
+BT /F2 9.5 Tf 0.071 0.949 0.651 rg 1 0 0 1 110 494.5 Tm (THEME PDF) Tj ET
+BT /F2 10 Tf 0.071 0.949 0.651 rg 1 0 0 1 42 474 Tm (TAXBRO BLOG SUMMARY) Tj ET
+BT /F2 25 Tf 0.933 0.957 1.000 rg 1 0 0 1 42 437 Tm (Income-tax Act, 2025: TDS and TCS section mapping, rates,) Tj ET
+BT /F2 25 Tf 0.933 0.957 1.000 rg 1 0 0 1 42 408 Tm (and transition rules) Tj ET
+BT /F1 12.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 42 395.5 Tm (A TaxBro-styled summary built for client sharing, internal updates, and quick operational reading before the 1 April 2026) Tj ET
+BT /F1 12.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 42 379.5 Tm (cutover.) Tj ET
+0.035 0.063 0.094 rg
+0.071 0.949 0.651 RG
+1 w 42 360 114.4 24 re B
+BT /F2 10 Tf 0.071 0.949 0.651 rg 1 0 0 1 52 368 Tm (1 April 2026 live) Tj ET
+0.035 0.063 0.094 rg
+0.486 0.773 1.000 RG
+1 w 166.4 360 78 24 re B
+BT /F2 10 Tf 0.486 0.773 1.000 rg 1 0 0 1 176.4 368 Tm (392 salary) Tj ET
+0.035 0.063 0.094 rg
+0.071 0.949 0.651 RG
+1 w 254.4 360 88.4 24 re B
+BT /F2 10 Tf 0.071 0.949 0.651 rg 1 0 0 1 264.4 368 Tm (393 main TDS) Tj ET
+0.035 0.063 0.094 rg
+0.118 0.894 1.000 RG
+1 w 352.8 360 62.4 24 re B
+BT /F2 10 Tf 0.118 0.894 1.000 rg 1 0 0 1 362.8 368 Tm (394 TCS) Tj ET
+0.043 0.067 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 222 420 124 re B
+0.071 0.949 0.651 RG
+2 w 42 346 m 462 346 l S
+BT /F2 12 Tf 0.933 0.957 1.000 rg 1 0 0 1 56 320 Tm (What mostly stays the same) Tj ET
+BT /F2 10.5 Tf 0.071 0.949 0.651 rg 1 0 0 1 58 309.5 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 72 309.5 Tm (Rates and thresholds remain broadly unchanged in the supplied) Tj ET
+BT /F1 10.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 72 296 Tm (source.) Tj ET
+BT /F2 10.5 Tf 0.071 0.949 0.651 rg 1 0 0 1 58 278.5 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 72 278.5 Tm (Timelines and interest exposure remain broadly familiar.) Tj ET
+BT /F2 10.5 Tf 0.071 0.949 0.651 rg 1 0 0 1 58 260 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 72 260 Tm (The main shift is how teams reference sections, forms, and) Tj ET
+BT /F1 10.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 72 246.5 Tm (transition logic.) Tj ET
+0.043 0.067 0.094 rg
+0.125 0.192 0.259 RG
+1 w 492 222 426 124 re B
+0.071 0.949 0.651 RG
+2 w 492 346 m 918 346 l S
+BT /F2 12 Tf 0.933 0.957 1.000 rg 1 0 0 1 506 320 Tm (What changes fast) Tj ET
+BT /F2 10.5 Tf 0.071 0.949 0.651 rg 1 0 0 1 508 309.5 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 522 309.5 Tm (Section 393 becomes the main TDS map outside salary.) Tj ET
+BT /F2 10.5 Tf 0.071 0.949 0.651 rg 1 0 0 1 508 291 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 522 291 Tm (Lower or nil deduction access expands across all TDS categories.) Tj ET
+BT /F2 10.5 Tf 0.071 0.949 0.651 rg 1 0 0 1 508 272.5 Tm (-) Tj ET
+BT /F1 10.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 522 272.5 Tm (Correction statements become more time-bound from 1 April 2026.) Tj ET
+0.043 0.067 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 104 876 96 re B
+0.118 0.894 1.000 RG
+2 w 42 200 m 918 200 l S
+BT /F2 12 Tf 0.933 0.957 1.000 rg 1 0 0 1 56 174 Tm (TaxBro takeaway) Tj ET
+BT /F2 17 Tf 0.933 0.957 1.000 rg 1 0 0 1 58 155 Tm (This is less about learning new withholding economics and more about preventing bad section) Tj ET
+BT /F2 17 Tf 0.933 0.957 1.000 rg 1 0 0 1 58 134 Tm (coding during the cutover.) Tj ET
+BT /F1 8.5 Tf 0.569 0.651 0.749 rg 1 0 0 1 42 19.5 Tm (TaxBro themed summary deck) Tj ET
+BT /F1 8.5 Tf 0.569 0.651 0.749 rg 1 0 0 1 878 19.5 Tm (1 / 5) Tj ET
+endstream
+endobj
+2 0 obj
+<< /Length 7322 >>
+stream
+0.02 0.03 0.04 rg 0 0 960 540 re f
+0.05 0.09 0.13 rg 0 0 960 540 re f
+0.07 0.95 0.65 rg 0 516 960 24 re f
+0.08 0.12 0.18 rg 720 318 320 260 re f
+0.06 0.89 1.00 rg 0 0 180 180 re f
+BT /F2 16 Tf 0.933 0.957 1.000 rg 1 0 0 1 42 490 Tm (TaxBro) Tj ET
+BT /F2 9.5 Tf 0.071 0.949 0.651 rg 1 0 0 1 110 494.5 Tm (LAW MAP) Tj ET
+BT /F2 10 Tf 0.071 0.949 0.651 rg 1 0 0 1 42 474 Tm (STRUCTURE) Tj ET
+BT /F2 25 Tf 0.933 0.957 1.000 rg 1 0 0 1 42 437 Tm (How the new law is arranged) Tj ET
+BT /F1 12.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 42 395.5 Tm (The easiest way to understand the change is to keep one compact crosswalk in front of you.) Tj ET
+0.043 0.067 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 114 500 294 re B
+0.071 0.949 0.651 RG
+2 w 42 408 m 542 408 l S
+BT /F2 12 Tf 0.933 0.957 1.000 rg 1 0 0 1 56 382 Tm (Section map) Tj ET
+0.082 0.200 0.278 rg
+0.125 0.192 0.259 RG
+1 w 56 354 472 26 re B
+BT /F2 8.6 Tf 0.933 0.957 1.000 rg 1 0 0 1 62 366.4 Tm (Area) Tj ET
+0.125 0.192 0.259 RG
+1 w 210 380 m 210 354 l S
+BT /F2 8.6 Tf 0.933 0.957 1.000 rg 1 0 0 1 216 366.4 Tm (ITA 2025) Tj ET
+0.125 0.192 0.259 RG
+1 w 330 380 m 330 354 l S
+BT /F2 8.6 Tf 0.933 0.957 1.000 rg 1 0 0 1 336 366.4 Tm (Working note) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 332 472 22 re B
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 340.4 Tm (Salary TDS) Tj ET
+0.125 0.192 0.259 RG
+1 w 210 354 m 210 332 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 216 340.4 Tm (392) Tj ET
+0.125 0.192 0.259 RG
+1 w 330 354 m 330 332 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 336 340.4 Tm (Salary continues as its own bucket.) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 310 472 22 re B
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 318.4 Tm (Resident payments) Tj ET
+0.125 0.192 0.259 RG
+1 w 210 332 m 210 310 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 216 318.4 Tm (393\(1\)) Tj ET
+0.125 0.192 0.259 RG
+1 w 330 332 m 330 310 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 336 318.4 Tm (Main table for resident TDS rows.) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 288 472 22 re B
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 296.4 Tm (Non-resident payments) Tj ET
+0.125 0.192 0.259 RG
+1 w 210 310 m 210 288 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 216 296.4 Tm (393\(2\)) Tj ET
+0.125 0.192 0.259 RG
+1 w 330 310 m 330 288 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 336 296.4 Tm (One non-resident table reference set.) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 256.8 472 31.2 re B
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 274.4 Tm (Any person payments) Tj ET
+0.125 0.192 0.259 RG
+1 w 210 288 m 210 256.8 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 216 274.4 Tm (393\(3\)) Tj ET
+0.125 0.192 0.259 RG
+1 w 330 288 m 330 256.8 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 336 274.4 Tm (Winnings, cash withdrawal, partner) Tj ET
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 336 263.79999999999995 Tm (payments.) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 225.60000000000002 472 31.2 re B
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 243.20000000000002 Tm (No-deduction cases) Tj ET
+0.125 0.192 0.259 RG
+1 w 210 256.8 m 210 225.60000000000002 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 216 243.20000000000002 Tm (393\(4\)) Tj ET
+0.125 0.192 0.259 RG
+1 w 330 256.8 m 330 225.60000000000002 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 336 243.20000000000002 Tm (Carve-outs move into a separate) Tj ET
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 336 232.6 Tm (sub-table.) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 203.60000000000002 472 22 re B
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 212.00000000000003 Tm (TCS) Tj ET
+0.125 0.192 0.259 RG
+1 w 210 225.60000000000002 m 210 203.60000000000002 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 216 212.00000000000003 Tm (394) Tj ET
+0.125 0.192 0.259 RG
+1 w 330 225.60000000000002 m 330 203.60000000000002 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 336 212.00000000000003 Tm (TCS shifts out of old 206C framing.) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 172.40000000000003 472 31.2 re B
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 190.00000000000003 Tm (Definitions) Tj ET
+0.125 0.192 0.259 RG
+1 w 210 203.60000000000002 m 210 172.40000000000003 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 216 190.00000000000003 Tm (402) Tj ET
+0.125 0.192 0.259 RG
+1 w 330 203.60000000000002 m 330 172.40000000000003 l S
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 336 190.00000000000003 Tm (Some meanings now sit outside the) Tj ET
+BT /F1 8.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 336 179.4 Tm (charging row.) Tj ET
+0.043 0.067 0.094 rg
+0.125 0.192 0.259 RG
+1 w 572 114 346 294 re B
+0.486 0.773 1.000 RG
+2 w 572 408 m 918 408 l S
+BT /F2 12 Tf 0.933 0.957 1.000 rg 1 0 0 1 586 382 Tm (Transition rule) Tj ET
+0.082 0.200 0.278 rg
+0.125 0.192 0.259 RG
+1 w 586 354 318 26 re B
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 592 366.8 Tm (Trigger point) Tj ET
+0.125 0.192 0.259 RG
+1 w 776 380 m 776 354 l S
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 782 366.8 Tm (Law) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 586 323.6 318 30.4 re B
+BT /F1 8.2 Tf 0.875 0.914 0.969 rg 1 0 0 1 592 340.8 Tm (Credit, payment, or deposit before 31) Tj ET
+BT /F1 8.2 Tf 0.875 0.914 0.969 rg 1 0 0 1 592 330.6 Tm (March 2026) Tj ET
+0.125 0.192 0.259 RG
+1 w 776 354 m 776 323.6 l S
+BT /F1 8.2 Tf 0.875 0.914 0.969 rg 1 0 0 1 782 340.8 Tm (ITA 1961) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 586 293.20000000000005 318 30.4 re B
+BT /F1 8.2 Tf 0.875 0.914 0.969 rg 1 0 0 1 592 310.40000000000003 Tm (Credit, payment, or deposit after 31) Tj ET
+BT /F1 8.2 Tf 0.875 0.914 0.969 rg 1 0 0 1 592 300.2 Tm (March 2026) Tj ET
+0.125 0.192 0.259 RG
+1 w 776 323.6 m 776 293.2 l S
+BT /F1 8.2 Tf 0.875 0.914 0.969 rg 1 0 0 1 782 310.40000000000003 Tm (ITA 2025) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 586 262.8 318 30.4 re B
+BT /F1 8.2 Tf 0.875 0.914 0.969 rg 1 0 0 1 592 280 Tm (Credit or payment before 31 March 2026,) Tj ET
+BT /F1 8.2 Tf 0.875 0.914 0.969 rg 1 0 0 1 592 269.8 Tm (deposit after) Tj ET
+0.125 0.192 0.259 RG
+1 w 776 293.2 m 776 262.8 l S
+BT /F1 8.2 Tf 0.875 0.914 0.969 rg 1 0 0 1 782 280 Tm (ITA 1961) Tj ET
+BT /F2 11.5 Tf 0.071 0.949 0.651 rg 1 0 0 1 586 242.5 Tm (Risk points) Tj ET
+BT /F2 9.6 Tf 0.071 0.949 0.651 rg 1 0 0 1 588 224.4 Tm (-) Tj ET
+BT /F1 9.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 602 224.4 Tm (Use the earlier of credit or payment to decide the) Tj ET
+BT /F1 9.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 602 211.79999999999998 Tm (governing Act.) Tj ET
+BT /F2 9.6 Tf 0.071 0.949 0.651 rg 1 0 0 1 588 195.20000000000002 Tm (-) Tj ET
+BT /F1 9.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 602 195.20000000000002 Tm (Wrong section quoting can trigger return mismatch and) Tj ET
+BT /F1 9.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 602 182.6 Tm (correction work.) Tj ET
+BT /F2 9.6 Tf 0.071 0.949 0.651 rg 1 0 0 1 588 166.00000000000003 Tm (-) Tj ET
+BT /F1 9.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 602 166.00000000000003 Tm (April deposits can still belong to March deductions) Tj ET
+BT /F1 9.6 Tf 0.875 0.914 0.969 rg 1 0 0 1 602 153.4 Tm (under ITA 1961.) Tj ET
+BT /F1 8.5 Tf 0.569 0.651 0.749 rg 1 0 0 1 42 19.5 Tm (Keep the trigger date separate from the deposit date) Tj ET
+BT /F1 8.5 Tf 0.569 0.651 0.749 rg 1 0 0 1 878 19.5 Tm (2 / 5) Tj ET
+endstream
+endobj
+3 0 obj
+<< /Length 8847 >>
+stream
+0.02 0.03 0.04 rg 0 0 960 540 re f
+0.05 0.09 0.13 rg 0 0 960 540 re f
+0.07 0.95 0.65 rg 0 516 960 24 re f
+0.08 0.12 0.18 rg 720 318 320 260 re f
+0.06 0.89 1.00 rg 0 0 180 180 re f
+BT /F2 16 Tf 0.933 0.957 1.000 rg 1 0 0 1 42 490 Tm (TaxBro) Tj ET
+BT /F2 9.5 Tf 0.071 0.949 0.651 rg 1 0 0 1 110 494.5 Tm (RESIDENTS) Tj ET
+BT /F2 10 Tf 0.071 0.949 0.651 rg 1 0 0 1 42 474 Tm (RESIDENT TDS) Tj ET
+BT /F2 25 Tf 0.933 0.957 1.000 rg 1 0 0 1 42 437 Tm (Section 392 and section 393\(1\) resident mapping) Tj ET
+BT /F1 12.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 42 395.5 Tm (This pulls the most-used resident payment buckets into one practical view.) Tj ET
+0.082 0.200 0.278 rg
+0.125 0.192 0.259 RG
+1 w 42 378 784 26 re B
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 48 391.8 Tm (Nature of payment) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 404 m 328 378 l S
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 334 391.8 Tm (Legacy) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 404 m 448 378 l S
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 454 391.8 Tm (ITA 2025) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 404 m 696 378 l S
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 702 391.8 Tm (Rate) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 356 784 22 re B
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 365.95 Tm (Salary) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 378 m 328 356 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 365.95 Tm (192) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 378 m 448 356 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 365.95 Tm (392) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 378 m 696 356 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 702 365.95 Tm (As per slab) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 334 784 22 re B
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 343.95 Tm (PF withdrawal / accumulated balance) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 356 m 328 334 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 343.95 Tm (192A) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 356 m 448 334 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 343.95 Tm (392\(7\)) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 356 m 696 334 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 702 343.95 Tm (10%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 312 784 22 re B
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 321.95 Tm (Insurance commission / other commission) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 334 m 328 312 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 321.95 Tm (194D / 194H) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 334 m 448 312 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 321.95 Tm (393\(1\) - Sl. 1) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 334 m 696 312 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 702 321.95 Tm (2%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 290 784 22 re B
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 299.95 Tm (Rent: individual or HUF over Rs. 50,000 / month) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 312 m 328 290 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 299.95 Tm (194IB) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 312 m 448 290 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 299.95 Tm (393\(1\) - Sl. 2\(i\)) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 312 m 696 290 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 702 299.95 Tm (2%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 268 784 22 re B
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 277.95 Tm (General rent) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 290 m 328 268 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 277.95 Tm (194I) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 290 m 448 268 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 277.95 Tm (393\(1\) - Sl. 2\(ii\)) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 290 m 696 268 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 702 277.95 Tm (2% or 10%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 246 784 22 re B
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 255.95 Tm (Immovable property transfer / JDA / compulsory acquisition) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 268 m 328 246 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 255.95 Tm (194IA / 194IC / 194LA) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 268 m 448 246 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 255.95 Tm (393\(1\) - Sl. 3) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 268 m 696 246 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 702 255.95 Tm (1% / 10% / 10%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 217.9 784 28.1 re B
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 233.95 Tm (Capital market distributions) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 246 m 328 217.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 233.95 Tm (194K / 194LBA / 194LBB /) Tj ET
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 223.89999999999998 Tm (194LBC) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 246 m 448 217.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 233.95 Tm (393\(1\) - Sl. 4) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 246 m 696 217.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 702 233.95 Tm (10% / 10% / 10% / 25%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 195.89999999999998 784 22 re B
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 205.84999999999997 Tm (Interest on securities / other interest) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 217.89999999999998 m 328 195.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 205.84999999999997 Tm (193 / 194A) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 217.89999999999998 m 448 195.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 205.84999999999997 Tm (393\(1\) - Sl. 5) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 217.89999999999998 m 696 195.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 702 205.84999999999997 Tm (10%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 173.89999999999998 784 22 re B
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 183.84999999999997 Tm (Contract payments and 194M-type payments) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 195.89999999999998 m 328 173.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 183.84999999999997 Tm (194C / 194M) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 195.89999999999998 m 448 173.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 183.84999999999997 Tm (393\(1\) - Sl. 6\(i\) / 6\(ii\)) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 195.89999999999998 m 696 173.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 702 183.84999999999997 Tm (1% / 2% / 2%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 151.89999999999998 784 22 re B
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 161.84999999999997 Tm (Professional, technical, director fee, royalty, non-compete) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 173.89999999999998 m 328 151.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 161.84999999999997 Tm (194J) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 173.89999999999998 m 448 151.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 161.84999999999997 Tm (393\(1\) - Sl. 6) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 173.89999999999998 m 696 151.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 702 161.84999999999997 Tm (2% or 10%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 129.89999999999998 784 22 re B
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 139.84999999999997 Tm (Dividend / life insurance / buyer TDS on goods) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 151.89999999999998 m 328 129.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 139.84999999999997 Tm (194 / 194DA / 194Q) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 151.89999999999998 m 448 129.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 139.84999999999997 Tm (393\(1\) - Sl. 7 / 8\(i\) / 8\(ii\)) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 151.89999999999998 m 696 129.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 702 139.84999999999997 Tm (10% / 2% / 0.1%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 107.89999999999998 784 22 re B
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 117.84999999999998 Tm (Senior citizen, perquisite, e-commerce, VDA) Tj ET
+0.125 0.192 0.259 RG
+1 w 328 129.89999999999998 m 328 107.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 334 117.84999999999998 Tm (194P / 194R / 194O / 194S) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 129.89999999999998 m 448 107.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 117.84999999999998 Tm (393\(1\) - Sl. 8\(iii\) to 8\(vi\)) Tj ET
+0.125 0.192 0.259 RG
+1 w 696 129.89999999999998 m 696 107.89999999999998 l S
+BT /F1 8.05 Tf 0.875 0.914 0.969 rg 1 0 0 1 702 117.84999999999998 Tm (Slab / 10% / 0.1% / 1%) Tj ET
+BT /F1 8.5 Tf 0.569 0.651 0.749 rg 1 0 0 1 42 19.5 Tm (Resident sections are mostly a remapping exercise) Tj ET
+BT /F1 8.5 Tf 0.569 0.651 0.749 rg 1 0 0 1 878 19.5 Tm (3 / 5) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Length 8153 >>
+stream
+0.02 0.03 0.04 rg 0 0 960 540 re f
+0.05 0.09 0.13 rg 0 0 960 540 re f
+0.07 0.95 0.65 rg 0 516 960 24 re f
+0.08 0.12 0.18 rg 720 318 320 260 re f
+0.06 0.89 1.00 rg 0 0 180 180 re f
+BT /F2 16 Tf 0.933 0.957 1.000 rg 1 0 0 1 42 490 Tm (TaxBro) Tj ET
+BT /F2 9.5 Tf 0.071 0.949 0.651 rg 1 0 0 1 110 494.5 Tm (NON-RESIDENTS) Tj ET
+BT /F2 10 Tf 0.071 0.949 0.651 rg 1 0 0 1 42 474 Tm (NON-RESIDENT TDS) Tj ET
+BT /F2 25 Tf 0.933 0.957 1.000 rg 1 0 0 1 42 437 Tm (Section 393\(2\) and other moved buckets) Tj ET
+BT /F1 12.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 42 395.5 Tm (The rate pattern stays familiar, but the table reference becomes much cleaner.) Tj ET
+0.082 0.200 0.278 rg
+0.125 0.192 0.259 RG
+1 w 42 378 760 26 re B
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 48 391.8 Tm (Nature of payment) Tj ET
+0.125 0.192 0.259 RG
+1 w 334 404 m 334 378 l S
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 340 391.8 Tm (Legacy) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 404 m 448 378 l S
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 454 391.8 Tm (ITA 2025) Tj ET
+0.125 0.192 0.259 RG
+1 w 670 404 m 670 378 l S
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 676 391.8 Tm (Rate) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 356 760 22 re B
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 365.9 Tm (Sportsman or sports association) Tj ET
+0.125 0.192 0.259 RG
+1 w 334 378 m 334 356 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 340 365.9 Tm (194E) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 378 m 448 356 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 365.9 Tm (393\(2\) - Sl. 1) Tj ET
+0.125 0.192 0.259 RG
+1 w 670 378 m 670 356 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 676 365.9 Tm (20%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 334 760 22 re B
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 343.9 Tm (Foreign currency borrowing / long-term infra bonds) Tj ET
+0.125 0.192 0.259 RG
+1 w 334 356 m 334 334 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 340 343.9 Tm (194LC) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 356 m 448 334 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 343.9 Tm (393\(2\) - Sl. 2) Tj ET
+0.125 0.192 0.259 RG
+1 w 670 356 m 670 334 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 676 343.9 Tm (5%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 312 760 22 re B
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 321.9 Tm (Rupee denominated bonds) Tj ET
+0.125 0.192 0.259 RG
+1 w 334 334 m 334 312 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 340 321.9 Tm (194LC) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 334 m 448 312 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 321.9 Tm (393\(2\) - Sl. 3) Tj ET
+0.125 0.192 0.259 RG
+1 w 670 334 m 670 312 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 676 321.9 Tm (5%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 290 760 22 re B
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 299.9 Tm (IFSC listed bonds / RDB in notified windows) Tj ET
+0.125 0.192 0.259 RG
+1 w 334 312 m 334 290 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 340 299.9 Tm (194LC) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 312 m 448 290 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 299.9 Tm (393\(2\) - Sl. 4.E\(a\) / 4.E\(b\)) Tj ET
+0.125 0.192 0.259 RG
+1 w 670 312 m 670 290 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 676 299.9 Tm (4% / 9%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 268 760 22 re B
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 277.9 Tm (Infrastructure debt fund interest) Tj ET
+0.125 0.192 0.259 RG
+1 w 334 290 m 334 268 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 340 277.9 Tm (194LB) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 290 m 448 268 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 277.9 Tm (393\(2\) - Sl. 5) Tj ET
+0.125 0.192 0.259 RG
+1 w 670 290 m 670 268 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 676 277.9 Tm (5%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 246 760 22 re B
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 255.9 Tm (Business trust distributions) Tj ET
+0.125 0.192 0.259 RG
+1 w 334 268 m 334 246 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 340 255.9 Tm (194LBA) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 268 m 448 246 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 255.9 Tm (393\(2\) - Sl. 6 / 7) Tj ET
+0.125 0.192 0.259 RG
+1 w 670 268 m 670 246 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 676 255.9 Tm (5% / 10% / rates in force) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 224 760 22 re B
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 233.9 Tm (Investment fund and securitization trust income) Tj ET
+0.125 0.192 0.259 RG
+1 w 334 246 m 334 224 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 340 233.9 Tm (194LBB / 194LBC\(2\)) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 246 m 448 224 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 233.9 Tm (393\(2\) - Sl. 8 / 9) Tj ET
+0.125 0.192 0.259 RG
+1 w 670 246 m 670 224 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 676 233.9 Tm (Rates in force) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 202 760 22 re B
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 211.9 Tm (MF units or specified company held by non-resident) Tj ET
+0.125 0.192 0.259 RG
+1 w 334 224 m 334 202 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 340 211.9 Tm (196A) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 224 m 448 202 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 211.9 Tm (393\(2\) - Sl. 10) Tj ET
+0.125 0.192 0.259 RG
+1 w 670 224 m 670 202 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 676 211.9 Tm (20%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 180 760 22 re B
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 189.9 Tm (Offshore fund units, bonds, GDR, FII, specified fund income) Tj ET
+0.125 0.192 0.259 RG
+1 w 334 202 m 334 180 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 340 189.9 Tm (196B / 196C / 196D) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 202 m 448 180 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 189.9 Tm (393\(2\) - Sl. 11 to 16) Tj ET
+0.125 0.192 0.259 RG
+1 w 670 202 m 670 180 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 676 189.9 Tm (10%, 12.5%, or 20%) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 158 760 22 re B
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 48 167.9 Tm (Any other general non-resident sum chargeable) Tj ET
+0.125 0.192 0.259 RG
+1 w 334 180 m 334 158 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 340 167.9 Tm (195) Tj ET
+0.125 0.192 0.259 RG
+1 w 448 180 m 448 158 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 454 167.9 Tm (393\(2\) - Sl. 17) Tj ET
+0.125 0.192 0.259 RG
+1 w 670 180 m 670 158 l S
+BT /F1 8.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 676 167.9 Tm (Rates in force) Tj ET
+0.043 0.067 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 60 420 72 re B
+0.071 0.949 0.651 RG
+2 w 42 132 m 462 132 l S
+BT /F2 12 Tf 0.933 0.957 1.000 rg 1 0 0 1 56 106 Tm (Section 393\(3\) reminder) Tj ET
+BT /F2 9.4 Tf 0.071 0.949 0.651 rg 1 0 0 1 58 96.6 Tm (-) Tj ET
+BT /F1 9.4 Tf 0.875 0.914 0.969 rg 1 0 0 1 72 96.6 Tm (Lottery and gaming winnings remain 30%.) Tj ET
+BT /F2 9.4 Tf 0.071 0.949 0.651 rg 1 0 0 1 58 79.20000000000002 Tm (-) Tj ET
+BT /F1 9.4 Tf 0.875 0.914 0.969 rg 1 0 0 1 72 79.20000000000002 Tm (Cash withdrawal remains 2%.) Tj ET
+BT /F2 9.4 Tf 0.071 0.949 0.651 rg 1 0 0 1 58 61.80000000000005 Tm (-) Tj ET
+BT /F1 9.4 Tf 0.875 0.914 0.969 rg 1 0 0 1 72 61.80000000000005 Tm (Partner payments remain 10% in the supplied summary.) Tj ET
+0.043 0.067 0.094 rg
+0.125 0.192 0.259 RG
+1 w 492 60 426 72 re B
+0.118 0.894 1.000 RG
+2 w 492 132 m 918 132 l S
+BT /F2 12 Tf 0.933 0.957 1.000 rg 1 0 0 1 506 106 Tm (TCS reminder) Tj ET
+BT /F2 9.4 Tf 0.071 0.949 0.651 rg 1 0 0 1 508 96.6 Tm (-) Tj ET
+BT /F1 9.4 Tf 0.875 0.914 0.969 rg 1 0 0 1 522 96.6 Tm (TCS shifts to section 394.) Tj ET
+BT /F2 9.4 Tf 0.071 0.949 0.651 rg 1 0 0 1 508 79.20000000000002 Tm (-) Tj ET
+BT /F1 9.4 Tf 0.875 0.914 0.969 rg 1 0 0 1 522 79.20000000000002 Tm (The Finance Act, 2026 note in the source flags selected TCS reductions only) Tj ET
+BT /F1 9.4 Tf 0.875 0.914 0.969 rg 1 0 0 1 522 66.80000000000004 Tm (in ITA 2025.) Tj ET
+BT /F1 8.5 Tf 0.569 0.651 0.749 rg 1 0 0 1 42 19.5 Tm (Non-resident, any-person, and TCS buckets all move) Tj ET
+BT /F1 8.5 Tf 0.569 0.651 0.749 rg 1 0 0 1 878 19.5 Tm (4 / 5) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Length 5889 >>
+stream
+0.02 0.03 0.04 rg 0 0 960 540 re f
+0.05 0.09 0.13 rg 0 0 960 540 re f
+0.07 0.95 0.65 rg 0 516 960 24 re f
+0.08 0.12 0.18 rg 720 318 320 260 re f
+0.06 0.89 1.00 rg 0 0 180 180 re f
+BT /F2 16 Tf 0.933 0.957 1.000 rg 1 0 0 1 42 490 Tm (TaxBro) Tj ET
+BT /F2 9.5 Tf 0.071 0.949 0.651 rg 1 0 0 1 110 494.5 Tm (OPERATIONS) Tj ET
+BT /F2 10 Tf 0.071 0.949 0.651 rg 1 0 0 1 42 474 Tm (FORM CHANGES AND ACTION LIST) Tj ET
+BT /F2 25 Tf 0.933 0.957 1.000 rg 1 0 0 1 42 437 Tm (What teams should update before filings begin under ITA) Tj ET
+BT /F2 25 Tf 0.933 0.957 1.000 rg 1 0 0 1 42 408 Tm (2025) Tj ET
+BT /F1 12.5 Tf 0.875 0.914 0.969 rg 1 0 0 1 42 395.5 Tm (Use this page as the fast implementation checklist.) Tj ET
+0.043 0.067 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 168 458 240 re B
+0.071 0.949 0.651 RG
+2 w 42 408 m 500 408 l S
+BT /F2 12 Tf 0.933 0.957 1.000 rg 1 0 0 1 56 382 Tm (Core form remapping) Tj ET
+0.082 0.200 0.278 rg
+0.125 0.192 0.259 RG
+1 w 56 354 430 26 re B
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 62 367.8 Tm (Legacy) Tj ET
+0.125 0.192 0.259 RG
+1 w 170 380 m 170 354 l S
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 176 367.8 Tm (ITA 2025) Tj ET
+0.125 0.192 0.259 RG
+1 w 274 380 m 274 354 l S
+BT /F2 8.2 Tf 0.933 0.957 1.000 rg 1 0 0 1 280 367.8 Tm (Use) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 332 430 22 re B
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 341.85 Tm (Form 13) Tj ET
+0.125 0.192 0.259 RG
+1 w 170 354 m 170 332 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 176 341.85 Tm (Form 128) Tj ET
+0.125 0.192 0.259 RG
+1 w 274 354 m 274 332 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 280 341.85 Tm (Lower or nil deduction application) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 310 430 22 re B
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 319.85 Tm (Form 24Q) Tj ET
+0.125 0.192 0.259 RG
+1 w 170 332 m 170 310 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 176 319.85 Tm (Form 138) Tj ET
+0.125 0.192 0.259 RG
+1 w 274 332 m 274 310 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 280 319.85 Tm (TDS return for salaries) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 288 430 22 re B
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 297.85 Tm (Form 26Q) Tj ET
+0.125 0.192 0.259 RG
+1 w 170 310 m 170 288 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 176 297.85 Tm (Form 140) Tj ET
+0.125 0.192 0.259 RG
+1 w 274 310 m 274 288 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 280 297.85 Tm (TDS return other than salaries) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 266 430 22 re B
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 275.85 Tm (Form 27Q) Tj ET
+0.125 0.192 0.259 RG
+1 w 170 288 m 170 266 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 176 275.85 Tm (Form 144) Tj ET
+0.125 0.192 0.259 RG
+1 w 274 288 m 274 266 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 280 275.85 Tm (TDS return for non-residents) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 244 430 22 re B
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 253.85 Tm (Form 27EQ) Tj ET
+0.125 0.192 0.259 RG
+1 w 170 266 m 170 244 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 176 253.85 Tm (Form 143) Tj ET
+0.125 0.192 0.259 RG
+1 w 274 266 m 274 244 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 280 253.85 Tm (TCS return) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 222 430 22 re B
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 231.85 Tm (Form 16 / 16A / 27D) Tj ET
+0.125 0.192 0.259 RG
+1 w 170 244 m 170 222 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 176 231.85 Tm (130 / 131 / 133) Tj ET
+0.125 0.192 0.259 RG
+1 w 274 244 m 274 222 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 280 231.85 Tm (Salary, non-salary, and TCS certificates) Tj ET
+0.035 0.063 0.094 rg
+0.125 0.192 0.259 RG
+1 w 56 200 430 22 re B
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 62 209.85 Tm (49B / 15G / 15H) Tj ET
+0.125 0.192 0.259 RG
+1 w 170 222 m 170 200 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 176 209.85 Tm (134 / 135 / 121) Tj ET
+0.125 0.192 0.259 RG
+1 w 274 222 m 274 200 l S
+BT /F1 8.15 Tf 0.875 0.914 0.969 rg 1 0 0 1 280 209.85 Tm (TAN application and non-deduction declaration) Tj ET
+0.043 0.067 0.094 rg
+0.125 0.192 0.259 RG
+1 w 530 168 388 240 re B
+0.486 0.773 1.000 RG
+2 w 530 408 m 918 408 l S
+BT /F2 12 Tf 0.933 0.957 1.000 rg 1 0 0 1 544 382 Tm (Top three actions) Tj ET
+BT /F2 10.1 Tf 0.071 0.949 0.651 rg 1 0 0 1 546 365.9 Tm (-) Tj ET
+BT /F1 10.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 560 365.9 Tm (Update section masters across ERP, payroll, AP, treasury, and) Tj ET
+BT /F1 10.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 560 352.79999999999995 Tm (templates.) Tj ET
+BT /F2 10.1 Tf 0.071 0.949 0.651 rg 1 0 0 1 546 335.7 Tm (-) Tj ET
+BT /F1 10.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 560 335.7 Tm (Split March 2026 trigger events from April 2026 deposit logic.) Tj ET
+BT /F2 10.1 Tf 0.071 0.949 0.651 rg 1 0 0 1 546 317.6 Tm (-) Tj ET
+BT /F1 10.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 560 317.6 Tm (Update forms, certificates, and correction-window controls at) Tj ET
+BT /F1 10.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 560 304.5 Tm (the same time as section mapping.) Tj ET
+BT /F2 10.1 Tf 0.071 0.949 0.651 rg 1 0 0 1 546 287.4 Tm (-) Tj ET
+BT /F1 10.1 Tf 0.875 0.914 0.969 rg 1 0 0 1 560 287.4 Tm (Use TaxBro's article and PDF as the quick-share client version.) Tj ET
+0.043 0.067 0.094 rg
+0.125 0.192 0.259 RG
+1 w 42 72 876 74 re B
+0.071 0.949 0.651 RG
+2 w 42 146 m 918 146 l S
+BT /F2 12 Tf 0.933 0.957 1.000 rg 1 0 0 1 56 120 Tm (TaxBro share note) Tj ET
+BT /F2 13.5 Tf 0.933 0.957 1.000 rg 1 0 0 1 58 106.5 Tm (Web article: taxbro.in/income-tax-act-2025-tds-tcs-changes.html) Tj ET
+BT /F1 11.5 Tf 0.569 0.651 0.749 rg 1 0 0 1 58 84.5 Tm (Use this PDF for clients, internal teams, or short update decks.) Tj ET
+BT /F1 8.5 Tf 0.569 0.651 0.749 rg 1 0 0 1 42 19.5 Tm (Themed for TaxBro) Tj ET
+BT /F1 8.5 Tf 0.569 0.651 0.749 rg 1 0 0 1 878 19.5 Tm (5 / 5) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+8 0 obj
+<< /Type /Pages /Count 5 /Kids [9 0 R 10 0 R 11 0 R 12 0 R 13 0 R] >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 1 0 R >>
+endobj
+10 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 2 0 R >>
+endobj
+11 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 3 0 R >>
+endobj
+12 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 4 0 R >>
+endobj
+13 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 5 0 R >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 8 0 R >>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000009 00000 n 
+0000003756 00000 n 
+0000011130 00000 n 
+0000020029 00000 n 
+0000028234 00000 n 
+0000034175 00000 n 
+0000034245 00000 n 
+0000034320 00000 n 
+0000034405 00000 n 
+0000034541 00000 n 
+0000034678 00000 n 
+0000034815 00000 n 
+0000034952 00000 n 
+0000035089 00000 n 
+trailer
+<< /Size 15 /Root 14 0 R >>
+startxref
+35139
+%%EOF
