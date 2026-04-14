@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="robots" content="index,follow" />
+    <title>GST Invoice Maker India | TaxBro</title>
+    <meta
+      name="description"
+      content="Create GST-ready invoices in TaxBro's browser-first invoice maker with live preview, GST totals, CSV export, WhatsApp sharing, and print-to-PDF support."
+    />
+    <link rel="canonical" href="https://finsahilwadhwa.github.io/TAXBRO/invoice-maker.html" />
+    <meta property="og:title" content="GST Invoice Maker India | TaxBro" />
+    <meta
+      property="og:description"
+      content="Use TaxBro's GST Invoice Maker to prepare seller and buyer details, line items, tax totals, and export-ready invoice drafts on one page."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://finsahilwadhwa.github.io/TAXBRO/invoice-maker.html" />
+    <meta property="og:image" content="https://finsahilwadhwa.github.io/TAXBRO/assets/taxbro-logo.jpeg" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" type="image/jpeg" href="./assets/taxbro-logo.jpeg" />
+    <link rel="shortcut icon" href="./assets/taxbro-logo.jpeg" />
+    <link rel="apple-touch-icon" href="./assets/taxbro-logo.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a" aria-hidden="true"></div>
+    <div class="bg-orb orb-b" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="wrap nav-shell">
+        <a class="brand" href="./index.html" aria-label="TaxBro home">
+          <img class="brand-logo" src="./assets/taxbro-logo.jpeg" alt="TaxBro logo" />
+          <div class="brand-copy">
+            <strong>TaxBro</strong>
+            <span>HSN, SAC + MCA code tools for India</span>
+          </div>
+        </a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="./index.html">Home</a>
+          <a href="./hsn-sac-finder.html">HSN + SAC</a>
+          <a href="./mca-activity-code-finder.html">MCA Codes</a>
+          <a href="#builder">Invoice Maker</a>
+          <a href="./e-stamp-paper-online.html">e-Stamp</a>
+          <a class="nav-cta" href="https://wa.link/u67tem" target="_blank" rel="noreferrer">WhatsApp</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="page-hero">
+        <div class="wrap hero-grid">
+          <div class="hero-copy reveal">
+            <div class="crumbs">
+              <a href="./index.html">TaxBro</a>
+              <span>/</span>
+              <span>GST Invoice Maker</span>
+            </div>
+            <div class="eyebrow">
+              <span class="eyebrow-dot" aria-hidden="true"></span>
+              Browser-first invoice workflow
+            </div>
+            <h1>
+              Build GST invoices
+              <span>with live preview</span>
+              and export-ready totals.
+            </h1>
+            <p class="hero-text">
+              This invoice maker keeps the whole flow inside TaxBro's static site, so it works cleanly on GitHub Pages.
+              Add seller and buyer details, line items, GST rates, notes, and print-ready branding from one page.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#builder">Open Invoice Maker</a>
+              <a class="btn btn-secondary" href="https://wa.link/u67tem" target="_blank" rel="noreferrer">Ask on WhatsApp</a>
+            </div>
+            <div class="hero-mini">
+              <span>Live GST totals with CGST, SGST, or IGST split</span>
+              <span>Save drafts locally in this browser</span>
+              <span>Print to PDF, export CSV, and share on WhatsApp</span>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-card">
+                <strong id="heroItemCount">1</strong>
+                <span>Line items active</span>
+              </div>
+              <div class="stat-card">
+                <strong id="heroTaxMode">CGST + SGST</strong>
+                <span>Current tax mode</span>
+              </div>
+              <div class="stat-card">
+                <strong id="heroGrandTotal">Rs 0</strong>
+                <span>Invoice total</span>
+              </div>
+              <div class="stat-card">
+                <strong id="heroDraftState">Local draft</strong>
+                <span>No login required</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="visual-panel logo-panel invoice-brand-panel">
+              <img src="./assets/taxbro-logo.jpeg" alt="TaxBro brand mark" />
+            </div>
+
+            <div class="visual-floating">
+              <span>Invoice preview</span>
+              <strong id="heroPreviewMeta">GST invoice builder is ready</strong>
+            </div>
+
+            <div class="visual-panel code-panel invoice-signal-panel">
+              <div class="code-preview-head">What this builder handles</div>
+              <div class="snippet-row">
+                <strong>Seller + buyer setup</strong>
+                <span>Capture GSTIN, address, phone, email, due date, and place of supply in one form.</span>
+              </div>
+              <div class="snippet-row">
+                <strong>Line-item GST math</strong>
+                <span>Each row calculates quantity, rate, taxable value, and tax percentage automatically.</span>
+              </div>
+              <div class="snippet-row">
+                <strong>Export-ready output</strong>
+                <span>Print a clean invoice sheet, download CSV, or send a WhatsApp summary to the client.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="wrap">
+          <div class="detail-grid">
+            <article class="detail-card reveal">
+              <h3>Why this page exists</h3>
+              <p>
+                People coming to TaxBro often need a code finder first and an invoice next. This separate page gives
+                them a second utility layer without dragging in a heavy app stack.
+              </p>
+              <ul class="detail-list">
+                <li>Works inside the same static site you already deployed</li>
+                <li>Keeps invoice drafting separate from HSN, SAC, and MCA search journeys</li>
+                <li>Feels on-brand instead of bolted on from another tool</li>
+              </ul>
+            </article>
+            <article class="detail-card reveal">
+              <h3>What it can do now</h3>
+              <p>
+                This first release focuses on practical export and client-sharing actions rather than requiring a backend.
+              </p>
+              <ul class="detail-list">
+                <li>Live preview with amount-in-words and tax split</li>
+                <li>Print / PDF flow through the browser</li>
+                <li>CSV export, WhatsApp share, and local draft save</li>
+              </ul>
+            </article>
+            <article class="detail-card reveal">
+              <h3>What we can add later</h3>
+              <p>
+                Once you like the UX, we can connect this screen to customer storage, invoice history, numbering rules,
+                and downloadable PDFs from a proper backend.
+              </p>
+              <ul class="detail-list">
+                <li>Saved invoice list and invoice history</li>
+                <li>Customer master and recurring invoice templates</li>
+                <li>Shareable hosted invoices and branded PDF pipeline</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="builder" class="finder-section">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div class="section-kicker">Invoice Builder</div>
+            <h2>Complete the form on the left and watch the invoice sheet update on the right.</h2>
+            <p>
+              This is a browser-side builder, so your draft stays on this device unless you export or share it.
+              Replace the TaxBro logo if needed, add your signature, and use the export buttons whenever the preview is ready.
+            </p>
+          </div>
+
+          <div class="invoice-shell reveal">
+            <div class="invoice-form">
+              <section class="invoice-panel invoice-panel-actions">
+                <div class="invoice-section-head">
+                  <h3>Export and draft tools</h3>
+                  <p>Use these actions anytime. The preview updates live while you type.</p>
+                </div>
+                <div class="invoice-actions">
+                  <button class="btn btn-primary" id="printBtn" type="button">Print / PDF</button>
+                  <button class="btn btn-secondary" id="csvBtn" type="button">Download CSV</button>
+                  <button class="btn btn-secondary" id="shareBtn" type="button">WhatsApp Summary</button>
+                  <button class="btn btn-secondary" id="saveBtn" type="button">Save Draft</button>
+                  <button class="btn btn-secondary" id="resetBtn" type="button">Reset</button>
+                </div>
+              </section>
+
+              <section class="invoice-panel">
+                <div class="invoice-section-head">
+                  <h3>General settings</h3>
+                  <p>Invoice meta, dates, place of supply, and reverse-charge status.</p>
+                </div>
+                <div class="invoice-two-col">
+                  <label class="field">
+                    <span>Invoice Number</span>
+                    <input class="text-input" id="invoiceNumber" data-model-field="invoiceNumber" autocomplete="off" />
+                  </label>
+                  <label class="field">
+                    <span>Invoice Date</span>
+                    <input class="text-input" id="invoiceDate" data-model-field="invoiceDate" type="date" />
+                  </label>
+                  <label class="field">
+                    <span>Due Date</span>
+                    <input class="text-input" id="dueDate" data-model-field="dueDate" type="date" />
+                  </label>
+                  <label class="field">
+                    <span>Place of Supply</span>
+                    <input
+                      class="text-input"
+                      id="placeOfSupply"
+                      data-model-field="placeOfSupply"
+                      placeholder="Example: 27-Maharashtra"
+                      autocomplete="off"
+                    />
+                  </label>
+                </div>
+                <label class="invoice-switch">
+                  <input id="reverseCharge" data-model-field="reverseCharge" type="checkbox" />
+                  <span>Reverse charge applicable</span>
+                </label>
+              </section>
+
+              <section class="invoice-panel">
+                <div class="invoice-section-head">
+                  <h3>Seller details</h3>
+                  <p>Your business identity for the invoice header.</p>
+                </div>
+                <div class="invoice-two-col">
+                  <label class="field">
+                    <span>Business Name</span>
+                    <input class="text-input" id="sellerName" data-model-field="sellerName" autocomplete="off" />
+                  </label>
+                  <label class="field">
+                    <span>GSTIN</span>
+                    <input class="text-input" id="sellerGstin" data-model-field="sellerGstin" autocomplete="off" />
+                  </label>
+                  <label class="field">
+                    <span>Phone</span>
+                    <input class="text-input" id="sellerPhone" data-model-field="sellerPhone" autocomplete="off" />
+                  </label>
+                  <label class="field">
+                    <span>Email</span>
+                    <input class="text-input" id="sellerEmail" data-model-field="sellerEmail" autocomplete="off" />
+                  </label>
+                </div>
+                <label class="field">
+                  <span>Address</span>
+                  <textarea id="sellerAddress" data-model-field="sellerAddress" placeholder="Business address"></textarea>
+                </label>
+                <label class="field invoice-file-input">
+                  <span>Upload Logo</span>
+                  <input id="logoFile" type="file" accept="image/*" />
+                </label>
+              </section>
+
+              <section class="invoice-panel">
+                <div class="invoice-section-head">
+                  <h3>Buyer details</h3>
+                  <p>Client details shown in the billed-to block.</p>
+                </div>
+                <div class="invoice-two-col">
+                  <label class="field">
+                    <span>Client Name</span>
+                    <input class="text-input" id="buyerName" data-model-field="buyerName" autocomplete="off" />
+                  </label>
+                  <label class="field">
+                    <span>GSTIN</span>
+                    <input class="text-input" id="buyerGstin" data-model-field="buyerGstin" autocomplete="off" />
+                  </label>
+                  <label class="field">
+                    <span>Phone</span>
+                    <input class="text-input" id="buyerPhone" data-model-field="buyerPhone" autocomplete="off" />
+                  </label>
+                  <label class="field">
+                    <span>Email</span>
+                    <input class="text-input" id="buyerEmail" data-model-field="buyerEmail" autocomplete="off" />
+                  </label>
+                </div>
+                <label class="field">
+                  <span>Address</span>
+                  <textarea id="buyerAddress" data-model-field="buyerAddress" placeholder="Client billing address"></textarea>
+                </label>
+                <label class="field invoice-file-input">
+                  <span>Upload Signature</span>
+                  <input id="signatureFile" type="file" accept="image/*" />
+                </label>
+              </section>
+
+              <section class="invoice-panel">
+                <div class="invoice-item-toolbar">
+                  <div class="invoice-section-head">
+                    <h3>Line items</h3>
+                    <p>Add products or services with HSN or SAC, quantity, rate, and GST.</p>
+                  </div>
+                  <button class="btn btn-secondary" id="addItemBtn" type="button">Add Item</button>
+                </div>
+                <div id="itemRows" class="invoice-item-stack"></div>
+              </section>
+
+              <section class="invoice-panel">
+                <div class="invoice-section-head">
+                  <h3>Notes and payment terms</h3>
+                  <p>These blocks appear near the bottom of the invoice preview.</p>
+                </div>
+                <label class="field">
+                  <span>Payment Terms</span>
+                  <textarea id="paymentTerms" data-model-field="paymentTerms" placeholder="Example: Pay within 7 days"></textarea>
+                </label>
+                <label class="field">
+                  <span>Notes</span>
+                  <textarea id="notes" data-model-field="notes" placeholder="Optional thank-you note, bank details, or support note"></textarea>
+                </label>
+              </section>
+            </div>
+
+            <aside class="invoice-preview-wrap">
+              <div class="invoice-summary-band">
+                <div class="invoice-summary-card">
+                  <span>Subtotal</span>
+                  <strong id="summarySubtotal">Rs 0</strong>
+                </div>
+                <div class="invoice-summary-card">
+                  <span>Total GST</span>
+                  <strong id="summaryGst">Rs 0</strong>
+                </div>
+                <div class="invoice-summary-card">
+                  <span>Items</span>
+                  <strong id="summaryItems">1</strong>
+                </div>
+                <div class="invoice-summary-card">
+                  <span>Grand Total</span>
+                  <strong id="summaryTotal">Rs 0</strong>
+                </div>
+              </div>
+
+              <div class="invoice-preview-shell">
+                <div class="invoice-preview-head">
+                  <div>
+                    <strong>Live invoice preview</strong>
+                    <p>White-sheet print layout that updates as you edit.</p>
+                  </div>
+                  <span class="status-pill muted" id="saveState">Draft ready</span>
+                </div>
+                <div id="invoicePreview" class="invoice-preview-root"></div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div class="section-kicker">FAQ</div>
+            <h2>Common questions about the TaxBro invoice maker.</h2>
+            <p>This first version is intentionally practical: fast, light, and export-focused.</p>
+          </div>
+
+          <div class="faq-grid">
+            <details class="faq-item reveal">
+              <summary>Does this save invoices online?</summary>
+              <p>
+                Not yet. This version saves drafts in your current browser through local storage, which keeps deployment simple and works on GitHub Pages.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>How do I get a PDF?</summary>
+              <p>
+                Use the <code>Print / PDF</code> button. Your browser's print dialog lets you save the invoice preview as a PDF with the clean sheet layout.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Does it support IGST versus CGST and SGST?</summary>
+              <p>
+                Yes. The builder compares the seller GSTIN state code with place of supply or buyer GSTIN state code and switches the tax split automatically.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Can I replace the logo and signature?</summary>
+              <p>
+                Yes. Upload both from the form and the preview will update immediately. If you do nothing, the TaxBro logo remains as the default placeholder.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="wrap">
+          <div class="cta-band reveal">
+            <div>
+              <h3>Use the invoice maker, then keep users inside the TaxBro system.</h3>
+              <p>
+                Someone may start with HSN or SAC search, move into invoice prep, and then still need document or compliance help. That is exactly the connected product flow we want.
+              </p>
+            </div>
+            <div class="cta-actions">
+              <a class="btn btn-primary" href="./hsn-sac-finder.html">Open HSN + SAC Finder</a>
+              <a class="btn btn-secondary" href="https://wa.link/u67tem" target="_blank" rel="noreferrer">Ask on WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-shell">
+        <div>
+          <strong>TaxBro</strong>
+          <p>HSN + SAC search, MCA lookup, invoice drafting, and document-support workflows in one system.</p>
+        </div>
+        <div class="footer-meta">
+          <span id="footerMeta">Drafts save locally in this browser until you reset them.</span>
+          <span>Copyright (c) <span id="year"></span> TaxBro.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./invoice-maker.js"></script>
+  </body>
+</html>
