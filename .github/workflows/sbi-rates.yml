@@ -1,0 +1,34 @@
+name: Daily SBI TT Rates Update
+
+on:
+  schedule:
+    # 04:30 UTC = 10:00 IST
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-sbi-rates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch SBI rates PDF
+        run: bash run.sh
+
+      - name: Show archived file
+        if: always()
+        run: |
+          TZ=Asia/Kolkata
+          DATE=$(TZ=$TZ date '+%Y-%m-%d')
+          YEAR=$(TZ=$TZ date '+%Y')
+          MONTH=$(TZ=$TZ date '+%m')
+          FILE="sbi-rates/$YEAR/$MONTH/$DATE.pdf"
+          if [ -f "$FILE" ]; then
+            echo "PDF saved: $FILE"
+          else
+            echo "No PDF saved for $DATE."
+          fi
