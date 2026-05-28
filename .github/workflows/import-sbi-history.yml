@@ -1,0 +1,48 @@
+name: Import Historical SBI TT Rates
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-history:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout TAXBRO
+        uses: actions/checkout@v4
+
+      - name: Clone historical SBI archive
+        run: |
+          git clone --depth 1 https://github.com/skbly7/sbi-tt-rates-historical.git /tmp/sbi-history
+
+      - name: Import historical PDFs into TAXBRO format
+        run: |
+          mkdir -p sbi-rates
+
+          for file in /tmp/sbi-history/20*/*/*.pdf; do
+            name=$(basename "$file")
+
+            # Converts 2026-05-26-14:15.pdf -> 2026-05-26
+            date_part=$(echo "$name" | sed -E 's/^([0-9]{4}-[0-9]{2}-[0-9]{2}).*\.pdf$/\1/')
+            year=$(echo "$date_part" | cut -d- -f1)
+            month=$(echo "$date_part" | cut -d- -f2)
+
+            mkdir -p "sbi-rates/$year/$month"
+
+            # If same date has two files, keep later 19:15 file when available.
+            if echo "$name" | grep -q "19:15"; then
+              cp "$file" "sbi-rates/$year/$month/$date_part.pdf"
+            elif [ ! -f "sbi-rates/$year/$month/$date_part.pdf" ]; then
+              cp "$file" "sbi-rates/$year/$month/$date_part.pdf"
+            fi
+          done
+
+      - name: Commit imported history
+        run: |
+          git config user.email "auto@taxbro.in"
+          git config user.name "TaxBro Auto Import"
+          git add sbi-rates
+          git commit -m "Import historical SBI TT rates from 2020" || echo "Nothing to commit"
+          git push
