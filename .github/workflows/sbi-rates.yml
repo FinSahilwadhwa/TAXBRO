@@ -2,8 +2,15 @@ name: Daily SBI TT Rates Update
 
 on:
   schedule:
-    # 04:30 UTC = 10:00 IST
+    # 04:30 UTC = 10:00 AM IST
     - cron: "30 4 * * *"
+
+    # Backup attempt: 06:30 UTC = 12:00 PM IST
+    - cron: "30 6 * * *"
+
+    # Backup attempt: 09:30 UTC = 03:00 PM IST
+    - cron: "30 9 * * *"
+
   workflow_dispatch:
 
 permissions:
@@ -12,6 +19,7 @@ permissions:
 jobs:
   fetch-sbi-rates:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -27,6 +35,7 @@ jobs:
           YEAR=$(TZ=$TZ date '+%Y')
           MONTH=$(TZ=$TZ date '+%m')
           FILE="sbi-rates/$YEAR/$MONTH/$DATE.pdf"
+
           if [ -f "$FILE" ]; then
             echo "PDF saved: $FILE"
           else
