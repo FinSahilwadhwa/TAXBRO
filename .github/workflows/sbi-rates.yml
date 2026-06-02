@@ -2,13 +2,8 @@ name: Daily SBI TT Rates Update
 
 on:
   schedule:
-    # 04:30 UTC = 10:00 AM IST
     - cron: "30 4 * * *"
-
-    # Backup attempt: 06:30 UTC = 12:00 PM IST
     - cron: "30 6 * * *"
-
-    # Backup attempt: 09:30 UTC = 03:00 PM IST
     - cron: "30 9 * * *"
 
   workflow_dispatch:
@@ -41,3 +36,44 @@ jobs:
           else
             echo "No PDF saved for $DATE."
           fi
+
+      - name: Send Success Email
+        if: success()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "✅ TaxBro SBI Rates Updated"
+          to: www.sahilwadhwa520@gmail.com
+          from: TaxBro Bot
+          body: |
+            SBI rates workflow completed successfully.
+
+            Repository: ${{ github.repository }}
+            Branch: ${{ github.ref_name }}
+            Run ID: ${{ github.run_id }}
+
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+      - name: Send Failure Email
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "❌ TaxBro SBI Rates Update Failed"
+          to: www.sahilwadhwa520@gmail.com
+          from: TaxBro Bot
+          body: |
+            SBI rates workflow FAILED.
+
+            Repository: ${{ github.repository }}
+            Run ID: ${{ github.run_id }}
+
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
