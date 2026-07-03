@@ -1,0 +1,581 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="robots" content="index,follow" />
+
+    <title>TaxBro | HSN + SAC Finder, SBI TT Rates, GST Invoice Maker</title>
+    <meta
+      name="description"
+      content="TaxBro helps users search every HSN and SAC code, view daily SBI TT rates, create GST invoices, and request e-Stamp, physical stamp paper by courier, and Delhi NCR notary support."
+    />
+    <link rel="canonical" href="https://www.taxbro.in/" />
+
+    <meta property="og:title" content="TaxBro | HSN + SAC Finder, SBI TT Rates" />
+    <meta
+      property="og:description"
+      content="Search the full HSN and SAC master, view daily SBI TT rates, build GST invoices, and request e-Stamp, courier, and Delhi NCR legal document support."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.taxbro.in/" />
+    <meta property="og:image" content="https://www.taxbro.in/assets/taxbro-logo.jpeg" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" type="image/jpeg" href="./assets/taxbro-logo.jpeg" />
+    <link rel="shortcut icon" href="./assets/taxbro-logo.jpeg" />
+    <link rel="apple-touch-icon" href="./assets/taxbro-logo.jpeg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="bg-orb orb-a" aria-hidden="true"></div>
+    <div class="bg-orb orb-b" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="wrap nav-shell">
+        <a class="brand" href="#top" aria-label="TaxBro home">
+          <img class="brand-logo" src="./assets/taxbro-logo.jpeg" alt="TaxBro logo" />
+          <div class="brand-copy">
+            <strong>TaxBro</strong>
+            <span data-country-text="brandTagline">HSN, SAC + MCA code tools for India</span>
+          </div>
+        </a>
+
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="./hsn-sac-finder.html" data-country-text="navPrimaryOne" data-country-href="navPrimaryOneHref">Finder</a>
+          <a href="./mca-activity-code-finder.html" data-country-text="navPrimaryTwo" data-country-href="navPrimaryTwoHref">MCA Codes</a>
+          <a href="./invoice-maker.html" data-country-text="navPrimaryThree" data-country-href="navPrimaryThreeHref">Invoices</a>
+          <a href="./sbi-tt-rates.html" data-country-text="navPrimaryFour" data-country-href="navPrimaryFourHref">SBI TT Rates</a>
+          <a href="#services" data-country-text="navPrimaryFive" data-country-href="navPrimaryFiveHref">Services</a>
+          <a href="#blog" data-country-text="navPrimarySix" data-country-href="navPrimarySixHref">Blog</a>
+          <a href="./e-stamp-paper-online.html" data-country-text="navPrimarySeven" data-country-href="navPrimarySevenHref">e-Stamp</a>
+          <label class="country-select-shell" aria-label="Select country">
+            <select id="countrySwitcher" class="country-select">
+              <option value="IN">India</option>
+              <option value="US" data-country-url="./usa/">United States</option>
+            </select>
+          </label>
+          <a class="nav-cta" href="https://wa.link/u67tem" target="_blank" rel="noreferrer" data-country-text="navCta" data-country-href="navCtaHref">WhatsApp</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span class="eyebrow-dot" aria-hidden="true"></span>
+              <span data-country-text="heroEyebrow">Full HSN + SAC master loaded</span>
+            </div>
+
+            <h1 data-country-html="heroTitle">
+              Find HSN and SAC codes,
+              <span>then convert demand</span>
+              into invoices, e-Stamp, courier, and notary business.
+            </h1>
+
+            <p class="hero-text" data-country-text="heroText">
+              TaxBro helps users search the full HSN and SAC master, view daily SBI TT rates for foreign income,
+              review GST rate updates from your supplied 2025 sheet, build GST invoices, and message you for e-Stamp
+              requests across India, physical stamp paper by fast courier, or Delhi NCR notary support.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="./hsn-sac-finder.html" data-country-text="heroActionOne" data-country-href="heroActionOneHref">Open Finder</a>
+              <a class="btn btn-secondary" href="./sbi-tt-rates.html" data-country-text="heroActionTwo" data-country-href="heroActionTwoHref">View SBI TT Rates</a>
+              <a class="btn btn-secondary" href="#services" data-country-text="heroActionThree" data-country-href="heroActionThreeHref">See Services</a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat-card">
+                <strong id="statTotal">22,471</strong>
+                <span data-country-text="statOneLabel">Total indexed codes</span>
+              </div>
+              <div class="stat-card">
+                <strong id="statHsn">21,790</strong>
+                <span data-country-text="statTwoLabel">HSN records</span>
+              </div>
+              <div class="stat-card">
+                <strong id="statSac">681</strong>
+                <span data-country-text="statThreeLabel">SAC records</span>
+              </div>
+              <div class="stat-card">
+                <strong id="statEffective">22 Sep 2025</strong>
+                <span data-country-text="statFourLabel">Update sheet effective date</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="visual-panel logo-panel">
+              <img src="./assets/taxbro-logo.jpeg" alt="TaxBro brand mark" />
+            </div>
+
+            <div class="visual-floating">
+              <span data-country-text="visualFloatingLabel">Rate sheet active</span>
+              <strong id="heroRateMeta" data-country-text="visualFloatingValue">2025 HSN update rules loaded</strong>
+            </div>
+
+            <div class="visual-panel doc-panel">
+              <img src="./assets/stamp-paper.svg" alt="Stylized stamp paper illustration" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker-wrap reveal">
+        <div class="wrap ticker">
+          <div class="ticker-item" data-country-text="tickerOne">Search by code, keyword, or prefix.</div>
+          <div class="ticker-item" data-country-text="tickerTwo">Filter between HSN, SAC, and updated-rate matches.</div>
+          <div class="ticker-item" data-country-text="tickerThree">View daily SBI TT rates for foreign income conversion.</div>
+          <div class="ticker-item" data-country-text="tickerFour">Use one service desk for invoices, e-Stamp, fast courier, and Delhi NCR notary.</div>
+        </div>
+      </section>
+
+      <section id="finder" class="page-section">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div class="section-kicker" data-country-text="primarySectionKicker">Finder</div>
+            <h2 data-country-text="primarySectionTitle">One unified finder for HSN and SAC.</h2>
+            <p data-country-text="primarySectionText">
+              TaxBro now uses a single dedicated finder page for both HSN and SAC so users do not need to choose the
+              wrong search page first. The combined finder supports goods, services, partial codes, keyword search, and
+              GST rate signals in one place.
+            </p>
+          </div>
+          <div class="detail-grid">
+            <article class="detail-card reveal">
+              <h3 data-country-text="primaryCardOneTitle">What the combined finder covers</h3>
+              <p data-country-text="primaryCardOneText">
+                The unified page searches your full HSN and SAC master together, then lets users narrow with built-in
+                filters only after they see the first set of results.
+              </p>
+              <ul class="detail-list">
+                <li>Exact code, partial code, and keyword search</li>
+                <li>All, HSN-only, and SAC-only filtering</li>
+                <li>Mapped GST rate signals where available</li>
+              </ul>
+            </article>
+            <article class="detail-card reveal">
+              <h3 data-country-text="primaryCardTwoTitle">Why this is better for users</h3>
+              <p data-country-text="primaryCardTwoText">
+                Most people do not think in separate HSN and SAC landing pages. They think in goods, services, invoices,
+                or legal/document work. One finder reduces confusion and gets them to the right result faster.
+              </p>
+              <ul class="detail-list">
+                <li>No split search journey</li>
+                <li>Better for mixed business queries</li>
+                <li>Cleaner handoff to your service pages</li>
+              </ul>
+            </article>
+            <article class="detail-card reveal">
+              <h3 data-country-text="primaryCardThreeTitle">Open the live finder</h3>
+              <p data-country-text="primaryCardThreeText">
+                The full searchable interface now lives on its own dedicated page so the homepage stays lighter and the
+                code search experience stays focused.
+              </p>
+              <div class="cta-actions">
+                <a class="btn btn-primary" href="./hsn-sac-finder.html" data-country-text="primaryCardThreeActionOne" data-country-href="primaryCardThreeActionOneHref">Open unified finder</a>
+                <a class="btn btn-secondary" href="https://wa.link/u67tem" target="_blank" rel="noreferrer" data-country-text="primaryCardThreeActionTwo" data-country-href="primaryCardThreeActionTwoHref">Ask on WhatsApp</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services-section">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div class="section-kicker" data-country-text="servicesKicker">Services</div>
+            <h2 data-country-text="servicesTitle">One document desk for digital, physical, and Delhi NCR execution support.</h2>
+            <p data-country-text="servicesText">
+              Visitors can arrive for HSN or SAC search, then move into one connected service flow: e-Stamp by request,
+              physical stamp paper by fast courier, and notary support through the Delhi NCR desk only.
+            </p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <img src="./assets/stamp-paper.svg" alt="Stamp paper illustration" loading="lazy" />
+              <div class="service-body">
+                <span class="service-tag">e-Stamp by email</span>
+                <h3>Fast digital stamp paper delivery</h3>
+                <p>
+                  Start the request digitally with state, document purpose, and stamp value details from one WhatsApp or
+                  email flow.
+                </p>
+                <a href="./e-stamp-paper-online.html">View e-Stamp page</a>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <img src="./assets/courier-flow.svg" alt="Courier delivery illustration" loading="lazy" />
+              <div class="service-body">
+                <span class="service-tag">Physical delivery</span>
+                <h3>Physical stamp paper with fast courier dispatch</h3>
+                <p>
+                  If the user needs originals, the same inquiry can move straight into physical paper handling and fast
+                  courier dispatch.
+                </p>
+                <a href="./e-stamp-paper-online.html">View document desk</a>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <img src="./assets/notary-seal.svg" alt="Notary seal illustration" loading="lazy" />
+              <div class="service-body">
+                <span class="service-tag">Delhi NCR desk</span>
+                <h3>Notary support when execution is also required</h3>
+                <p>
+                  Keep the promise precise: notary is handled through the Delhi NCR desk, not positioned as an all-India
+                  service.
+                </p>
+                <a href="./e-stamp-paper-online.html">View document desk</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="seo-hub-section">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div class="section-kicker" data-country-text="seoKicker">SEO Pages</div>
+            <h2 data-country-text="seoTitle">Dedicated landing pages for the searches people actually make.</h2>
+            <p data-country-text="seoText">
+              TaxBro now uses a unified HSN + SAC finder, a separate MCA activity-code finder, a GST invoice maker, and
+              one document-services page for e-Stamp, physical dispatch, and Delhi NCR notary support.
+            </p>
+          </div>
+
+          <div class="seo-link-grid">
+            <a class="seo-link-card reveal" href="./hsn-sac-finder.html">
+              <span class="service-tag">Search page</span>
+              <strong>HSN + SAC Finder</strong>
+              <p>Target both product-code and service-code searches with one unified search experience.</p>
+            </a>
+
+            <a class="seo-link-card reveal" href="./mca-activity-code-finder.html">
+              <span class="service-tag">Search page</span>
+              <strong>MCA Activity Code Finder</strong>
+              <p>Search NIC 2008 divisions, groups, classes, and 5-digit MCA activity codes on a separate page.</p>
+            </a>
+
+            <a class="seo-link-card reveal" href="./sbi-tt-rates.html">
+              <span class="service-tag">Forex rates</span>
+              <strong>SBI TT Rates</strong>
+              <p>View daily SBI Telegraphic Transfer rates for foreign income, ITR Schedule FSI, and FEMA work.</p>
+            </a>
+
+            <a class="seo-link-card reveal" href="./e-stamp-paper-online.html">
+              <span class="service-tag">Service page</span>
+              <strong>e-Stamp + Courier + Delhi NCR Notary</strong>
+              <p>Convert document demand on one premium page instead of splitting the service into disconnected screens.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="blog-section">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div class="section-kicker">Blog</div>
+            <h2>Tax updates that feel clear, current, and useful.</h2>
+            <p>
+              TaxBro now has a dedicated blog space for practical breakdowns of GST changes, foreign remittances,
+              income-tax transitions, business compliance, rates, forms, and operational tax impact. Each guide is
+              written for quick reading, cleaner client explanations, and practical action.
+            </p>
+          </div>
+
+          <div class="blog-grid">
+            <a class="blog-feature-card reveal" href="./income-tax-act-2025-tds-tcs-changes.html" data-tilt-card>
+              <div class="blog-feature-copy">
+                <span class="service-tag">Tax update</span>
+                <strong>Income-tax Act, 2025: TDS and TCS section mapping, rates, and transition rules</strong>
+                <p>
+                  A TaxBro-styled article covering the new section references, the 1 April 2026 cutover, form changes,
+                  and the rate buckets teams need to keep straight.
+                </p>
+                <div class="blog-meta-row">
+                  <span>Published 7 Apr 2026</span>
+                  <span>6 min read</span>
+                  <span>Article + PDF</span>
+                </div>
+              </div>
+
+              <div class="blog-signal-card" data-spotlight>
+                <div class="blog-signal-ring ring-a" aria-hidden="true"></div>
+                <div class="blog-signal-ring ring-b" aria-hidden="true"></div>
+                <div class="blog-signal-core">
+                  <span>Section 393</span>
+                  <strong>TDS</strong>
+                </div>
+                <div class="blog-signal-pill pill-a">392 Salary</div>
+                <div class="blog-signal-pill pill-b">393(2) NRI</div>
+                <div class="blog-signal-pill pill-c">394 TCS</div>
+                <div class="blog-signal-pill pill-d">402 Definitions</div>
+              </div>
+            </a>
+
+
+            <a class="blog-side-card reveal" href="./eway-bill-ship-to-gstin-august-2026.html" data-tilt-card>
+              <span class="service-tag">GST update</span>
+              <h3>Ship-to GSTIN mandatory from 1 August 2026.</h3>
+              <p>
+                A practical GSTN update covering the new Ship-to GSTIN requirement in e-Invoice and e-Way Bill API flows, the URP rule, voluntary e-Way Bill closure, compliance risk, and ERP readiness checklist.
+              </p>
+              <div class="blog-meta-row">
+                <span>Published 30 Jun 2026</span>
+                <span>7 min read</span>
+              </div>
+            </a>
+
+
+            <a class="blog-side-card reveal" href="./tcs-foreign-remittance-lrs-2026.html" data-tilt-card>
+              <span class="service-tag">Foreign remittance</span>
+              <h3>TCS on foreign remittances under LRS.</h3>
+              <p>
+                A clear guide for education payments, travel, overseas investments, ITR credit, purpose codes, documents, and SBI TT rate planning before sending money abroad.
+              </p>
+              <div class="blog-meta-row">
+                <span>Published 30 Jun 2026</span>
+                <span>7 min read</span>
+              </div>
+            </a>
+
+            <a class="blog-side-card reveal" href="./gst-registration-3-days-simplified-scheme.html" data-tilt-card>
+              <span class="service-tag">GST reform</span>
+              <h3>GST registration in 3 working days for low-risk applicants.</h3>
+              <p>
+                A practical breakdown of the simplified GST registration scheme, automated approval, low-risk route,
+                and the Rs. 2.5 lakh monthly output tax liability limit.
+              </p>
+              <div class="blog-meta-row">
+                <span>Published 3 Jul 2026</span>
+                <span>5 min read</span>
+              </div>
+            </a>
+
+            <a class="blog-side-card reveal" href="./passport-fee-hike-july-2026.html" data-tilt-card>
+              <span class="service-tag">Passport update</span>
+              <h3>Passport fees increased from 1 July 2026.</h3>
+              <p>
+                A quick guide to reported normal, Tatkaal, reissue, and overseas passport fee changes with official
+                Passport Seva verification links.
+              </p>
+              <div class="blog-meta-row">
+                <span>Published 3 Jul 2026</span>
+                <span>5 min read</span>
+              </div>
+            </a>
+
+            <a class="blog-side-card reveal" href="./real-estate-gst-compliance-guide.html" data-tilt-card>
+              <span class="service-tag">New guide</span>
+              <h3>GST and compliance for real estate builders.</h3>
+              <p>
+                A web-ready guide from your builder blog, with GST rates, SAC and HSN codes, RERA triggers, ITC,
+                invoice requirements, compliance risks, FAQs, images, and tables.
+              </p>
+              <div class="blog-meta-row">
+                <span>Published 4 Jun 2026</span>
+                <span>8 min read</span>
+              </div>
+            </a>
+
+            <a class="blog-side-card reveal" href="./bakery-gst-compliance-guide.html" data-tilt-card>
+              <span class="service-tag">Bakery guide</span>
+              <h3>GST and compliance for bakery businesses.</h3>
+              <p>
+                A practical bakery guide covering HSN 1905, GST registration, FSSAI, composition scheme, local licences,
+                notice risks, records, images, tables, and FAQs.
+              </p>
+              <div class="blog-meta-row">
+                <span>Published 4 Jun 2026</span>
+                <span>7 min read</span>
+              </div>
+            </a>
+
+            <a class="blog-side-card reveal" href="./salon-gst-compliance-guide.html" data-tilt-card>
+              <span class="service-tag">Salon guide</span>
+              <h3>GST and compliance for salon businesses.</h3>
+              <p>
+                A salon-focused guide covering SAC 9997, beauty-service GST, retail product HSN codes, registration,
+                composition, ITC restrictions, licences, audit triggers, invoices, and FAQs.
+              </p>
+              <div class="blog-meta-row">
+                <span>Published 4 Jun 2026</span>
+                <span>8 min read</span>
+              </div>
+            </a>
+
+            <article class="blog-side-card reveal" data-tilt-card>
+              <span class="service-tag">Inside the TDS post</span>
+              <h3>Built for quick operational reading.</h3>
+              <ul class="detail-list">
+                <li>Resident and non-resident TDS mapping</li>
+                <li>Transition matrix for March and April 2026 events</li>
+                <li>Form-code remapping and TCS notes</li>
+              </ul>
+            </article>
+
+            <article class="blog-side-card reveal" data-tilt-card>
+              <span class="service-tag">Next move</span>
+              <h3>Use the article, then message TaxBro.</h3>
+              <p>
+                Read the summary online, download the clean PDF version, then use WhatsApp if you want the section map
+                turned into a client note, internal checklist, or social post.
+              </p>
+              <div class="cta-actions">
+                <a class="btn btn-primary" href="./income-tax-act-2025-tds-tcs-changes.html">Open article</a>
+                <a class="btn btn-secondary" href="https://wa.link/u67tem" target="_blank" rel="noreferrer">Ask on WhatsApp</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="wrap contact-grid">
+          <div class="contact-card reveal">
+            <div class="section-kicker">Direct Contact</div>
+            <h2>Skip the form. Message TaxBro directly.</h2>
+            <p class="contact-copy">
+              For HSN help, e-Stamp requests, physical stamp paper by courier, or Delhi NCR notary support, users can
+              contact you straight on WhatsApp or by email. This keeps the page faster, cleaner, and more conversion-focused.
+            </p>
+
+            <div class="contact-direct">
+              <div class="contact-actions">
+                <a class="btn btn-primary" href="https://wa.link/u67tem" target="_blank" rel="noreferrer">Open WhatsApp</a>
+                <a class="btn btn-secondary" href="mailto:sahilwadhwa520@gmail.com">Email TaxBro</a>
+              </div>
+
+              <div class="contact-points">
+                <div class="contact-point">
+                  <span>WhatsApp link</span>
+                  <strong>wa.link/u67tem</strong>
+                </div>
+                <div class="contact-point">
+                  <span>Email</span>
+                  <strong>sahilwadhwa520@gmail.com</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="qr-shell">
+              <div class="qr-copy">
+                <span class="service-tag">Scan to chat</span>
+                <h3>WhatsApp QR for instant contact</h3>
+                <p>
+                  Mobile users can scan this code and jump straight into your WhatsApp contact flow without filling
+                  anything manually.
+                </p>
+              </div>
+              <a class="qr-card" href="https://wa.link/u67tem" target="_blank" rel="noreferrer" aria-label="Open TaxBro WhatsApp link">
+                <img src="./assets/taxbro-whatsapp-qr.png" alt="TaxBro WhatsApp QR code" />
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-stack">
+            <div class="info-card reveal">
+              <span class="service-tag">Why this feels premium</span>
+              <h3>Product first. Service second. Trust throughout.</h3>
+              <p>
+                The finder gives visitors a useful tool immediately. The service cards then make TaxBro feel like a
+                high-trust financial and legal operations brand instead of a generic brochure page.
+              </p>
+            </div>
+
+            <div class="info-card reveal">
+              <span class="service-tag">Contact flow</span>
+              <h3>Lower friction, better conversion</h3>
+              <p>
+                Users now have two immediate paths: WhatsApp for fast conversation and email for detailed requests. That
+                suits TaxBro better than a generic form and feels closer to a real operating business.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-shell">
+        <div>
+          <strong>TaxBro</strong>
+          <p>Full-code finder, e-Stamp intake, fast courier dispatch, and Delhi NCR notary support.</p>
+        </div>
+        <div class="footer-meta">
+          <span id="footerMeta">Loaded from your supplied workbook and PDF.</span>
+          <span><a class="inline-link" href="./about.html">About</a></span>
+          <span><a class="inline-link" href="./privacy-policy.html">Privacy Policy</a></span>
+          <span><a class="inline-link" href="./disclaimer.html">Disclaimer</a></span>
+          <span>Copyright (c) <span id="year"></span> TaxBro.</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="subscribe-modal" id="subscribeModal" aria-hidden="true">
+      <div class="subscribe-backdrop" data-subscribe-close></div>
+      <section class="subscribe-dialog" role="dialog" aria-modal="true" aria-labelledby="subscribeTitle" aria-describedby="subscribeText">
+        <button class="subscribe-close" type="button" aria-label="Close subscription popup" data-subscribe-close>×</button>
+        <span class="service-tag">TaxBro updates</span>
+        <h2 id="subscribeTitle">Get Daily Tax Updates</h2>
+        <p id="subscribeText">Choose what you want to hear about.</p>
+
+        <form id="subscribeForm" class="subscribe-form">
+          <label class="subscribe-hp" aria-hidden="true">
+            <span>Website</span>
+            <input id="subscribeWebsite" name="website" type="text" tabindex="-1" autocomplete="off" />
+          </label>
+          <label class="field">
+            <span>Email address</span>
+            <input class="text-input" id="subscribeEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+          </label>
+
+          <div class="subscribe-options" aria-label="Subscription categories">
+            <label class="subscribe-option">
+              <input type="checkbox" name="categories" value="daily_tax_gst" checked />
+              <span>Daily Tax and GST Updates</span>
+            </label>
+            <label class="subscribe-option">
+              <input type="checkbox" name="categories" value="sbi_tt_rates" />
+              <span>SBI TT Rate Updates</span>
+            </label>
+            <label class="subscribe-option">
+              <input type="checkbox" name="categories" value="new_blog_alerts" />
+              <span>New Blog Alerts</span>
+            </label>
+          </div>
+
+          <button class="btn btn-primary subscribe-submit" type="submit">Subscribe</button>
+          <p class="subscribe-note">Your email is sent only to TaxBro for the categories you choose.</p>
+          <p class="subscribe-status" id="subscribeStatus" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </div>
+    <script>
+      window.TAXBRO_SUBSCRIBE_ENDPOINT = "https://script.google.com/macros/s/AKfycbw-PYbYvqmDEO_BgaBfUFz6pR5urY84g5I-cJD3yxANbqYcLoebU5-1cyrWrYavyBzoSg/exec";
+    </script>
+    <script src="./app.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
